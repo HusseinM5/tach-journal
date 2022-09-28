@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('192.168.174.128', 'root', 'secret', 'web');
+$db = mysqli_connect('docker01-mohammed', 'root', 'secret', 'web');
 
 // REGISTER USER
 if (isset($_POST['reg_password'])) {
