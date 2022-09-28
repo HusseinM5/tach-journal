@@ -6,6 +6,6 @@ services:
             context: ./
             dockerfile: Dockerfile
         volumes:
-            - /home/kali/Desktop/docker-web:/var/www/html/
+            - /home/mohammed/Desktop/docker-web:/var/www/html/
         ports:
             - 8000:80
