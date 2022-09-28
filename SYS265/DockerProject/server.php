@@ -55,7 +55,7 @@ if (isset($_POST['reg_password'])) {
         $query = "INSERT INTO passwords_table (password) 
                           VALUES('$password')";
         mysqli_query($db, $query);
-        header('location: password.php');
+        header('location: index.php');
   }
 }
 
