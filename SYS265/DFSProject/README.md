@@ -123,3 +123,8 @@ Figure 1-3: Lizardfs Windows client
 IIS can be enabled on Windows 10 by searching “Features” in the start menu and selecting “Turn Windows features on or off.” Select “Internet Information Services” and click OK.
 
 In `Internet Information Services (IIS) Manager` open the advance setting of your website, and set the Physical Path to where you mounted the Lizardfs disk. While you are in the main page of the manager enable `Directory Browsing` to be able to view the files on the mountable disk without changing any permissions.
+
+
+### Reflection
+
+The project was cool to explore, as it helped understanding how large enterprises like Google works. I wish there was more clarification in the project requirements, because some stuff were unclear at all. During the project we used LizardFS, which it wasn't that bad other than the documentation was terrible and outdated. At this point it seems most of the open source project similar to this one are not the best to go with just because of how many issues you will run into.
