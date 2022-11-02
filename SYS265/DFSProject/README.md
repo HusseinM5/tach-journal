@@ -1,6 +1,6 @@
 # LizardFS Documentation
 
-
+![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image1.png)
 
 # 1- Network Configuration:
 Our Network includes the following VMs:
@@ -34,7 +34,8 @@ After saving the file run the command below:
 Open `Network & Internet settings`, then click on `Change adapter options`. Which will show Ethernet0 depending on the used adapter. Open the properties and select `Internet Protocol Version 4` and set the IP Address according to what was provided. You can see an  example in Figure 1-1.
 
 
-![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image1.png)
+![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image2.png)
+
 Figure 1-1: Windows network settings
 
 
@@ -81,7 +82,8 @@ Where the file share we configured is relatively small, there is one necessary c
 In `mfshdd.cfg` add a line where your disks are located at. You can see an example in Figure 1-2.
 
 
-![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image2.png)
+![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image3.png)
+
 Figure 1-2: Chunkserver disks
 
 
@@ -112,7 +114,8 @@ Make sure to change the owner of the directory to the `lizardfs` user and group:
 # 4- Windows Installation
 Install Lizardfs windows client from here. Run the downloaded binary and leave everything to the default. After that start Lizardfs and make it connect to mfsmaster as seen in Figure 1-3.
 
-![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image3.png)
+![](https://github.com/HusseinM5/tech-journal/blob/main/SYS265/DFSProject/imgs/image4.png)
+
 Figure 1-3: Lizardfs Windows client
 
 ## Configuring IIS
